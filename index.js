@@ -19,10 +19,18 @@ module.exports = class QuickEmoji extends Plugin {
         name: '⭐',
         url: '/assets/e4d52f4d69d7bba67e5fd70ffe26b70d.svg'
       },
-     // {
-    //    name: '',
-    //    url: ''
-  //    }
+       {
+        name: '👀',
+        url: '/assets/4c5a77a89716352686f590a6f014770c.svg'
+      },
+      {
+        name: '💖',
+        url: '/assets/8544ea5ce32fd9e17df806eb1cfeab47.svg'
+      },
+      {
+        name: '❤️',
+        url: '/assets/0483f2b648dcc986d01385062052ae1c.svg'
+      }
     ];
     inject('emoji-button', MiniPopover, 'default', (_, res) => {
       const props = findInReactTree(res, r => r && r.canReact && r.message);
@@ -49,7 +57,7 @@ module.exports = class QuickEmoji extends Plugin {
       ));
       return res;
     });
-    MiniPopover.default.displayName = 'MiniPopover';
+
   }
 
   pluginWillUnload () {
