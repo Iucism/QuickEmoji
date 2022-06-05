@@ -1,4 +1,4 @@
-# **VERY ALPHA BUILD**
+# **VERY ALPHA BUILD, USE AT RISK**
 
 # QuickEmoji
 
