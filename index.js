@@ -53,6 +53,6 @@ module.exports = class QuickEmoji extends Plugin {
   }
 
   pluginWillUnload () {
-    uninject('star-button');
+    uninject('emoji-button');
   }
 };
