@@ -1,0 +1,8 @@
+{
+  "name": "QuickEmoji",
+  "version": "2.0.0",
+  "description": "Adds Emoji buttons to messages",
+  "author": "lucism",
+  "main": "index.js",
+  "license": "MIT"
+}
