@@ -5,6 +5,12 @@ Add Emojis to the message buttons
 ![image](https://user-images.githubusercontent.com/105166639/172046128-17b681c5-ca9a-48d5-b8d1-c78723306ed4.png)
 
 
+# Installing 
+Powercord
+```
+git clone https://github.com/Iucism/QuickEmoji
+```
+
 # Adding Emojis
 
 Just dm me lucism#3987
