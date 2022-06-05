@@ -1,4 +1,4 @@
-# **BETA BUILD **
+# **BETA BUILD**
 
 # QuickEmoji
 
