@@ -7,6 +7,7 @@ Add Emojis to the message buttons
 
 # Installing 
 Powercord 
+
 Head over to your **Plugins folder > open your terminal of > copy paste the following, then press enter**:
 
 ```
