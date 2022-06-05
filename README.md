@@ -21,7 +21,7 @@ Just dm me lucism#3987
 
 # Credits
 
-**Cythina**'s quickstar (https://github.com/powercord-community/quick)
+**Cythina**'s quickstar (https://github.com/powercord-community/quickstar)
 
 **Strencher** helped a lot 💖 
 
