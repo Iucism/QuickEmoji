@@ -20,8 +20,8 @@ module.exports = class QuickEmoji extends Plugin {
         url: '/assets/e4d52f4d69d7bba67e5fd70ffe26b70d.svg'
       },
       {
-        name: '❤️',
-        url: '/assets/0483f2b648dcc986d01385062052ae1c.svg'
+        name: '',
+        url: ''
       }
     ];
     inject('emoji-button', MiniPopover, 'default', (_, res) => {
