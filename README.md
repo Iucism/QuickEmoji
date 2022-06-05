@@ -18,10 +18,9 @@ git clone https://github.com/Iucism/QuickReact
 
 # Adding Emojis
 
-Just dm me lucism#3987
+Get the asset link and emoji of ur choice and put it in index.js
 
-I'll do it for you
-
+guild emoties not supported
 
 # Credits
 
