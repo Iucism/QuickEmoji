@@ -10,7 +10,7 @@ Add Emojis to the message buttons.
 # Installing 
 **Powercord**
 
-Head over to your **Plugins folder > open your terminal of > copy paste the following, then press enter**:
+Head over to your **Plugins folder > open your terminal > copy paste the following, then press enter**:
 
 ```
 git clone https://github.com/Iucism/QuickReact
