@@ -8,7 +8,9 @@ Add Emojis to the message buttons
 
 # Credits
 
-https://github.com/powercord-community/quick
+Cythina's quickstar (https://github.com/powercord-community/quick)
+
+Strencher helped a lot 💖
 
 |<a href="https://github.com/cyyynthia"><img src="https://avatars.githubusercontent.com/u/9999055?v=4" width="90px" height="90px"></a>|<a href="https://github.com/Strencher"><img src="https://avatars.githubusercontent.com/u/46447572?v=4" width="90px" height="90px"></a>|
 |:-:|:-:|
