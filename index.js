@@ -28,20 +28,8 @@ module.exports = class QuickEmoji extends Plugin {
         url: '/assets/4c5a77a89716352686f590a6f014770c.svg'
       },
       {
-        name: '💖',
-        url: '/assets/8544ea5ce32fd9e17df806eb1cfeab47.svg'
-      },
-      {
         name: '❤️',
         url: '/assets/0483f2b648dcc986d01385062052ae1c.svg'
-      },
-      {
-        name: '😍',
-        url: '/assets/e55f552bd0b1cf368b466422408c8401.svg'
-      },
-      {
-        name: '🥰',
-        url: '/assets/01c80723fb8cbdcb9e22747cd88e07e4.svg'
       }
     ];
     inject('emoji-button', MiniPopover, 'default', (_, res) => {
