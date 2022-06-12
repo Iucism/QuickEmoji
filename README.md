@@ -1,6 +1,6 @@
-Personal Plugin
+# Personal Plugin
 
-# Credits
+## Credits
 
 **Cythina**'s quickstar (https://github.com/powercord-community/quickstar)
 
