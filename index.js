@@ -4,13 +4,14 @@ const { inject, uninject } = require('powercord/injector');
 const { React, getModule } = require('powercord/webpack');
 
 
+
 // Emojis
 
-module.exports = class QuickEmoji extends Plugin {
+module.exports = class QuickEmoji  extends Plugin {
   async startPlugin () {
     const classes = {
       ...await getModule([ 'icon', 'isHeader' ]),
-      ...await getModule([ 'button', 'separator', 'wrapper' ])
+      ...await getModule([ 'button', 'separator', 'wrapper' ])    
     };
     const reactionManager = await getModule([ 'addReaction' ]);
     const MiniPopover = await getModule(m => m.default && m.default.displayName === 'MiniPopover');
@@ -18,9 +19,11 @@ module.exports = class QuickEmoji extends Plugin {
       {
         name: '❤️',
         url: '/assets/0483f2b648dcc986d01385062052ae1c.svg'
-      }
+      },
     ];
-    inject('emoji-button', MiniPopover, 'default', (_, res) => {
+
+    
+    inject('heart-button', MiniPopover, 'default', (_, res) => {
       const props = findInReactTree(res, r => r && r.canReact && r.message);
       if (!props || props.message.reactions.some(r => emojis.some(e => r.emoji.name === e.name) && r.me)) {
         return res;
@@ -45,10 +48,11 @@ module.exports = class QuickEmoji extends Plugin {
       ));
       return res;
     });
-
+    MiniPopover.default.displayName = 'MiniPopover';
   }
 
   pluginWillUnload () {
-    uninject('emoji-button');
+    uninject('heart-button');
   }
 };
+
