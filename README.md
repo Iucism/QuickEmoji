@@ -1,26 +1,4 @@
-# **BETA BUILD**
-
-# QuickEmoji
-
-Add Emojis to the message buttons.
-
-![image](https://user-images.githubusercontent.com/105166639/172046128-17b681c5-ca9a-48d5-b8d1-c78723306ed4.png)
-
-
-# Installing 
-**Powercord**
-
-Head over to your **Plugins folder > open your terminal > copy paste the following, then press enter**:
-
-```
-git clone https://github.com/Iucism/QuickReact
-```
-
-# Adding Emojis
-
-Get the asset link and emoji of ur choice and put it in index.js
-
-guild emoties not supported
+Personal Plugin
 
 # Credits
 
