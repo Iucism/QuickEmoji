@@ -16,18 +16,6 @@ module.exports = class QuickEmoji extends Plugin {
     const MiniPopover = await getModule(m => m.default && m.default.displayName === 'MiniPopover');
     const emojis = [
       {
-        name: '⭐',
-        url: '/assets/e4d52f4d69d7bba67e5fd70ffe26b70d.svg'
-      },
-      {
-        name: '💀',
-        url: '/assets/f64f47a895e537305b3463f9d30bc177.svg'
-      },
-       {
-        name: '👀',
-        url: '/assets/4c5a77a89716352686f590a6f014770c.svg'
-      },
-      {
         name: '❤️',
         url: '/assets/0483f2b648dcc986d01385062052ae1c.svg'
       }
