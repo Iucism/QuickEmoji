@@ -5,7 +5,7 @@ const { React, getModule } = require('powercord/webpack');
 
 
 
-// Emojis
+// Heart
 
 module.exports = class QuickEmoji  extends Plugin {
   async startPlugin () {
