@@ -20,14 +20,14 @@ module.exports = class QuickEmoji  extends Plugin {
       },
     ];
 
-    
+
     inject('heart-button', MiniPopover, 'default', (_, res) => {
       const props = findInReactTree(res, r => r && r.canReact && r.message);
       if (!props || props.message.reactions.some(r => emojis.some(e => r.emoji.name === e.name) && r.me)) {
         return res;
       }
 
-      res.props.children.unshift(...emojis.map(emoji => 
+      res.props.children.unshift(...emojis.map(emoji =>
         React.createElement(
             'div', {
             key: emoji.name,
@@ -42,7 +42,7 @@ module.exports = class QuickEmoji  extends Plugin {
             className: `emoji ${classes.icon}`,
             src: emoji.url, 
           })
-        )  
+        )
       ));
       return res;
     });
@@ -53,4 +53,3 @@ module.exports = class QuickEmoji  extends Plugin {
     uninject('heart-button');
   }
 };
-
