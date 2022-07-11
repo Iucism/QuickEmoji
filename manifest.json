@@ -1,7 +1,7 @@
 {
-  "name": "QuickHeart",
+  "name": "QuickEmojis",
   "version": "2.0.0",
-  "description": "Adds Heart to message buttons",
+  "description": "Adds Emojis to message buttons",
   "author": "lucism",
   "main": "index.js"
 }
